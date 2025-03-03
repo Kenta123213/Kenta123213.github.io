@@ -63,7 +63,7 @@ def search_additional_info(query):
     return {"description": "Brak opisu", "link": "", "image": ""}
 
 
-def generate_markdown(items, topic, output_dir='site'):
+def generate_markdown(items, topic, output_dir='docs'):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -115,7 +115,7 @@ def main():
 
     if items:
         generate_markdown(items, topic)
-        print(f"Strona została wygenerowana w katalogu '{os.path.abspath('site')}'.")
+        print(f"Strona została wygenerowana w katalogu '{os.path.abspath('docs')}'.")
     else:
         print(
             "Nie znaleziono elementów do zescrapowania. Upewnij się, że selektory odpowiadają strukturze HTML strony.")
