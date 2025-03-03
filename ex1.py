@@ -87,8 +87,8 @@ def generate_markdown(items, topic, output_dir='docs'):
         safe_name = clearIfNecessary(name)
         subpage_content = f"# {name}\n\n" \
                           f"---\n\n" \
-                          f"**Dodatkowe informacje (DuckDuckGo):**\n\n" \
-                          f"**Opis:** {duck_description}\n\n" \
+                          f"**Additional informations (DuckDuckGo):**\n\n" \
+                          f"**Description:** {duck_description}\n\n" \
                           f"**Link:** [{duck_link}]({duck_link})\n\n"
         if duck_image:
             subpage_content += f"![{name}]({duck_image})\n\n"

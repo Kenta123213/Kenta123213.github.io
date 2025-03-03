@@ -2,9 +2,9 @@
 
 ---
 
-**Dodatkowe informacje (DuckDuckGo):**
+**Additional informations (DuckDuckGo):**
 
-**Opis:** Go is a fast, easy, and secure language for cloud, web, and DevOps development. Learn how to use Go with tutorials, books, courses, and community resources.
+**Description:** Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.
 
-**Link:** [https://go.dev/](https://go.dev/)
+**Link:** [https://www.google.com/](https://www.google.com/)
 
